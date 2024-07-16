@@ -28,4 +28,4 @@ async def handle_post(request: Request, x_moveo_signature: str = Header(None)):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=80)
+    uvicorn.run(app)
