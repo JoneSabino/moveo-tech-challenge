@@ -1,3 +1,5 @@
+[![Run Unit Tests](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml/badge.svg)](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml)
+
 # Moveo Tech Challenge
 
 ## Project Overview
