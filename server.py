@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request, Header
-from models import response as res
-from moveo_webhook import MoveoWebhookHandler
+from src.models import response as res
+from src.moveo_webhook import MoveoWebhookHandler
 import os
 app = FastAPI()
 
