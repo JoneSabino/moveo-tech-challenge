@@ -1,4 +1,5 @@
-[![Run Unit Tests](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml/badge.svg)](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml)
+[![Unit Tests](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml/badge.svg)](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml)
+[![Ruff Linting](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-lint.yml/badge.svg)](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-lint.yml)
 
 # Moveo Tech Challenge
 
