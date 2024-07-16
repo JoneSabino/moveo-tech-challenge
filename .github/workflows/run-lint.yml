@@ -1,4 +1,4 @@
-name: Run Ruff Linting
+name: Ruff Linting
 
 on: [push, pull_request]
 
