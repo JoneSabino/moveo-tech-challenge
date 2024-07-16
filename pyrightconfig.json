@@ -1,0 +1,46 @@
+{
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/.pytest_cache",
+    ".pdm-build",
+    ".venv",
+    "tests"
+  ],
+  "ignore": [],
+  "defineConstant": {
+    "DEBUG": true
+  },
+  "stubPath": "src/stubs",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportUnboundVariable": true,
+  "reportUnusedVariable": true,
+  "reportGeneralTypeIssues": true,
+  "reportOptionalSubscript": true,
+  "reportOptionalMemberAccess": true,
+  "reportOptionalOperand": true,
+  "reportOptionalCall": true,
+  "reportOptionalIterable": true,
+  "reportUnnecessaryIsInstance": true,
+  "reportUnnecessaryTypeIgnoreComment": true,
+  "reportUnnecessaryTypeIgnoreCommentSeverity": "warning",
+  "reportIncompatibleMethodOverride": true,
+  "reportIncompatibleVariableOverride": true,
+  "typeCheckingMode": "strict",
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.12",
+  "executionEnvironments": [
+    {
+      "root": "src",
+      "pythonVersion": "3.12"
+    },
+        {
+          "root": "tests",
+          "pythonVersion": "3.12"
+        }
+  ]
+}
