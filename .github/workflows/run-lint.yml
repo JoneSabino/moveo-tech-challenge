@@ -22,4 +22,4 @@ jobs:
 
     - name: Run Ruff
       run: |
-        ruff src tests
+        ruff check src tests
