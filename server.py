@@ -7,8 +7,8 @@ app = FastAPI()
 WEBHOOK_SECRET = str(os.environ.get("WEBHOOK_SECRET"))
 
 @app.get("/")
-def hello_world():
-    return "Hello,World"
+def vercel_check():
+    return "API successfully deployed."
 
 @app.post("/{path:path}")
 async def handle_post(request: Request, x_moveo_signature: str = Header(None)):
