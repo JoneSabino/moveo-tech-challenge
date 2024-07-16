@@ -1,5 +1,6 @@
 [![Unit Tests](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml/badge.svg)](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-tests.yml)
 [![Ruff Linting](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-lint.yml/badge.svg)](https://github.com/JoneSabino/moveo-tech-challenge/actions/workflows/run-lint.yml)
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/moveo-tech-challenge?style=plastic&name=Vercel)
 
 # Moveo Tech Challenge
 
