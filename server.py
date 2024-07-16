@@ -6,6 +6,10 @@ app = FastAPI()
 
 WEBHOOK_SECRET = str(os.environ.get("WEBHOOK_SECRET"))
 
+@app.get("/")
+def hello_world():
+    return "Hello,World"
+
 @app.post("/{path:path}")
 async def handle_post(request: Request, x_moveo_signature: str = Header(None)):
     moveo_signature = x_moveo_signature
