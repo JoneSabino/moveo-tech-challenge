@@ -1,22 +1,27 @@
-name: Upload Python Package
+name: Publish to PyPI
 
 on:
   release:
     types: [published]
 
 jobs:
-  pypi-publish:
-    name: upload release to PyPI
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      # This permission is needed for private repositories.
-      contents: read
-      # IMPORTANT: this permission is mandatory for trusted publishing
-      id-token: write
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: pdm-project/setup-pdm@v3
+      - name: Setup PDM
+        uses: pdm-project/setup-pdm@v4
+        with:
+          python-version: 3.12
+          cache: true
 
-      - name: Publish package distributions to PyPI
-        run: pdm publish
+      - name: Install dependencies
+        run: pdm install
+
+      - name: Publish to PyPI
+        env:
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        run: pdm publish --no-input
