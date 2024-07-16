@@ -11,8 +11,8 @@ This project is a tech challenge repository designed to showcase skills and solu
 ## Getting Started
 
 ### Prerequisites
-- Python 3.8 or higher
-- [PDM](https://pdm.fming.dev/latest/) (Python Development Master)
+- Python 3.12 or higher
+- [PDM](https://pdm.fming.dev/latest/)
 
 ### Installation
 
